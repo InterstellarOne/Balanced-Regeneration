@@ -1,0 +1,2 @@
+ 
+The food naming convention refers to the approx. hunger regained, then the amount of saturation regained. Singular food items have this information stored in their .mcfunction.

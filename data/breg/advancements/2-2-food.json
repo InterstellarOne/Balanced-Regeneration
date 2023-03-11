@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:chorus_fruit",
+              "minecraft:carrot",
+              "minecraft:apple"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "breg:food/2-2-food"
+    }
+  }

@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:porkchop",
+            "minecraft:beef",
+            "minecraft:rabbit"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "breg:food/2-1-food"
+  }
+}

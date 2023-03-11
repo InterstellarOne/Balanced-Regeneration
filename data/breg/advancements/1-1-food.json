@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:sweet_berries",
+            "minecraft:cookie",
+            "minecraft:salmon",
+            "minecraft:cod",
+            "minecraft:mutton",
+            "minecraft:potato",
+            "minecraft:dried_kelp",
+            "minecraft:glow_berries",
+            "minecraft:melon_slice",
+            "minecraft:tropical_fish",
+            "minecraft:beetroot",
+            "minecraft:cake",
+            "minecraft:poisonous_potato",
+            "minecraft:pufferfish",
+            "minecraft:chicken",
+            "minecraft:rotten_flesh"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "breg:food/1-1-food"
+  }
+}

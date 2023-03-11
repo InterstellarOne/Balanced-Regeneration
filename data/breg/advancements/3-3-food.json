@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:bread",
+              "minecraft:cooked_cod",
+              "minecraft:cooked_rabbit",
+              "minecraft:baked_potato",
+              "minecraft:cooked_chicken",
+              "minecraft:beetroot_soup",
+              "minecraft:mushroom_stew",
+              "minecraft:suspicious_stew"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "breg:food/3-3-food"
+    }
+  }
